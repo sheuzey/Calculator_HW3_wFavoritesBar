@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC2514BC15EEA23C00FB79D7 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2514BB15EEA23C00FB79D7 /* CalculatorBrain.m */; };
 		DC331B7515ED5C5B00E778A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC331B7415ED5C5B00E778A9 /* UIKit.framework */; };
 		DC331B7715ED5C5B00E778A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC331B7615ED5C5B00E778A9 /* Foundation.framework */; };
 		DC331B7915ED5C5B00E778A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC331B7815ED5C5B00E778A9 /* CoreGraphics.framework */; };
 		DC331B7F15ED5C5B00E778A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC331B7D15ED5C5B00E778A9 /* InfoPlist.strings */; };
 		DC331B8115ED5C5B00E778A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC331B8015ED5C5B00E778A9 /* main.m */; };
 		DC331B8515ED5C5B00E778A9 /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC331B8415ED5C5B00E778A9 /* CalculatorAppDelegate.m */; };
-		DC331B8815ED5C5B00E778A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC331B8615ED5C5B00E778A9 /* MainStoryboard.storyboard */; };
+		DC331B8815ED5C5B00E778A9 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC331B8615ED5C5B00E778A9 /* iPhone.storyboard */; };
 		DC331B8B15ED5C5B00E778A9 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC331B8A15ED5C5B00E778A9 /* CalculatorViewController.m */; };
+		DC42B950162C789000307431 /* CalculatorProgramsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC42B94F162C789000307431 /* CalculatorProgramsTableViewController.m */; };
+		DC6362A9161E1EC0009D67FE /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6362A8161E1EC0009D67FE /* iPad.storyboard */; };
+		DC6362B1161E21F2009D67FE /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6362B0161E21F2009D67FE /* GraphViewController.m */; };
+		DC6362BC161E2785009D67FE /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6362BB161E2785009D67FE /* GraphView.m */; };
+		DCB89330160F8D4D00145E1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB8932F160F8D4D00145E1A /* Default-568h@2x.png */; };
+		DCCA421F1619D48E00859164 /* AxesDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCA421E1619D48E00859164 /* AxesDrawer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC0382A61626074E009117C7 /* SplitViewBarButtonItemPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitViewBarButtonItemPresenter.h; sourceTree = "<group>"; };
+		DC2514BA15EEA23C00FB79D7 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		DC2514BB15EEA23C00FB79D7 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 		DC331B7015ED5C5B00E778A9 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC331B7415ED5C5B00E778A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC331B7615ED5C5B00E778A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -28,9 +38,19 @@
 		DC331B8215ED5C5B00E778A9 /* Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Prefix.pch"; sourceTree = "<group>"; };
 		DC331B8315ED5C5B00E778A9 /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		DC331B8415ED5C5B00E778A9 /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
-		DC331B8715ED5C5B00E778A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DC331B8715ED5C5B00E778A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
 		DC331B8915ED5C5B00E778A9 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		DC331B8A15ED5C5B00E778A9 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		DC42B94E162C789000307431 /* CalculatorProgramsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorProgramsTableViewController.h; sourceTree = "<group>"; };
+		DC42B94F162C789000307431 /* CalculatorProgramsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorProgramsTableViewController.m; sourceTree = "<group>"; };
+		DC6362A8161E1EC0009D67FE /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		DC6362AF161E21F2009D67FE /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		DC6362B0161E21F2009D67FE /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		DC6362BA161E2785009D67FE /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		DC6362BB161E2785009D67FE /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		DCB8932F160F8D4D00145E1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DCCA421D1619D48E00859164 /* AxesDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AxesDrawer.h; path = ../AxesDrawer.h; sourceTree = "<group>"; };
+		DCCA421E1619D48E00859164 /* AxesDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AxesDrawer.m; path = ../AxesDrawer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +67,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC0382A416260737009117C7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DC0382A61626074E009117C7 /* SplitViewBarButtonItemPresenter.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		DC331B6515ED5C5B00E778A9 = {
 			isa = PBXGroup;
 			children = (
+				DCB8932F160F8D4D00145E1A /* Default-568h@2x.png */,
 				DC331B7A15ED5C5B00E778A9 /* Calculator */,
 				DC331B7315ED5C5B00E778A9 /* Frameworks */,
 				DC331B7115ED5C5B00E778A9 /* Products */,
@@ -77,11 +106,13 @@
 		DC331B7A15ED5C5B00E778A9 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				DC331B8315ED5C5B00E778A9 /* CalculatorAppDelegate.h */,
+				DC0382A416260737009117C7 /* Protocols */,
+				DC6362B7161E271E009D67FE /* View */,
+				DCCA421C1619D41800859164 /* Models */,
+				DCCA421A1619D40900859164 /* Controllers */,
+				DC6362AA161E1ED1009D67FE /* Storyboards */,
 				DC331B8415ED5C5B00E778A9 /* CalculatorAppDelegate.m */,
-				DC331B8615ED5C5B00E778A9 /* MainStoryboard.storyboard */,
-				DC331B8915ED5C5B00E778A9 /* CalculatorViewController.h */,
-				DC331B8A15ED5C5B00E778A9 /* CalculatorViewController.m */,
+				DC331B8315ED5C5B00E778A9 /* CalculatorAppDelegate.h */,
 				DC331B7B15ED5C5B00E778A9 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -96,6 +127,48 @@
 				DC331B8215ED5C5B00E778A9 /* Calculator-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC6362AA161E1ED1009D67FE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DC6362A8161E1EC0009D67FE /* iPad.storyboard */,
+				DC331B8615ED5C5B00E778A9 /* iPhone.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		DC6362B7161E271E009D67FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC6362BA161E2785009D67FE /* GraphView.h */,
+				DC6362BB161E2785009D67FE /* GraphView.m */,
+				DCCA421D1619D48E00859164 /* AxesDrawer.h */,
+				DCCA421E1619D48E00859164 /* AxesDrawer.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DCCA421A1619D40900859164 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC331B8915ED5C5B00E778A9 /* CalculatorViewController.h */,
+				DC331B8A15ED5C5B00E778A9 /* CalculatorViewController.m */,
+				DC6362AF161E21F2009D67FE /* GraphViewController.h */,
+				DC6362B0161E21F2009D67FE /* GraphViewController.m */,
+				DC42B94E162C789000307431 /* CalculatorProgramsTableViewController.h */,
+				DC42B94F162C789000307431 /* CalculatorProgramsTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DCCA421C1619D41800859164 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC2514BA15EEA23C00FB79D7 /* CalculatorBrain.h */,
+				DC2514BB15EEA23C00FB79D7 /* CalculatorBrain.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC331B7F15ED5C5B00E778A9 /* InfoPlist.strings in Resources */,
-				DC331B8815ED5C5B00E778A9 /* MainStoryboard.storyboard in Resources */,
+				DC331B8815ED5C5B00E778A9 /* iPhone.storyboard in Resources */,
+				DCB89330160F8D4D00145E1A /* Default-568h@2x.png in Resources */,
+				DC6362A9161E1EC0009D67FE /* iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +240,11 @@
 				DC331B8115ED5C5B00E778A9 /* main.m in Sources */,
 				DC331B8515ED5C5B00E778A9 /* CalculatorAppDelegate.m in Sources */,
 				DC331B8B15ED5C5B00E778A9 /* CalculatorViewController.m in Sources */,
+				DC2514BC15EEA23C00FB79D7 /* CalculatorBrain.m in Sources */,
+				DCCA421F1619D48E00859164 /* AxesDrawer.m in Sources */,
+				DC6362B1161E21F2009D67FE /* GraphViewController.m in Sources */,
+				DC6362BC161E2785009D67FE /* GraphView.m in Sources */,
+				DC42B950162C789000307431 /* CalculatorProgramsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,12 +259,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		DC331B8615ED5C5B00E778A9 /* MainStoryboard.storyboard */ = {
+		DC331B8615ED5C5B00E778A9 /* iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DC331B8715ED5C5B00E778A9 /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -245,7 +325,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -256,7 +338,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -280,6 +364,7 @@
 				DC331B9015ED5C5B00E778A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
